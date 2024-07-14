@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50%;
+    position: sticky;
+    background-color:grey;   
+}
+
+.link{
+    display: flex;
+    margin-right: 50px;
+    padding-left: 85%;
+    justify-content: space-between;
+
+}
+.link a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.link a:hover{
+    color: gold;
+}
