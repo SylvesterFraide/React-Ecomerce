@@ -33,3 +33,23 @@
     text-align: center;
     margin-top: 10px;
 }
+.addToCartbtn{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    width: 150px;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+
+}
+
+.addToCartbtn:hover{
+   background-color: darkgrey;
+   color: white;
+    cursor: pointer;
+}

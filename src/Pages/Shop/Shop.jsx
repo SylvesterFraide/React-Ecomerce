@@ -10,14 +10,9 @@ const Shop = () => {
             <h1>SmartTech Shop</h1>
          </div>
          <div className="products">
-
             {PRODUCTS.map((product) => (
                <div key={product.id}>
-
-                  <Product 
-                  productName={product.productName}
-                   price={product.price} 
-                   productImage={product.productImage} />
+                  <Product data={product}/>
                </div>
             ))}
          </div>
